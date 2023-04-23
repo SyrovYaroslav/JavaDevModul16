@@ -16,5 +16,4 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x ./gradlew   
       - name: test
-        run: ./blank.yml
-        working-directory: .github/workflows
+        run: ./gradlew test

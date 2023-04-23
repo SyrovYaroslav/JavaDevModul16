@@ -16,5 +16,5 @@ jobs:
           cache: 'gradle'
       - name: Make gradlew executable
         run: git update-index --chmod=+x ./gradlew test 
-      - name: test
+      - name: Test with gradle
         run: ./gradlew test

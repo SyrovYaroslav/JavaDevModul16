@@ -17,4 +17,4 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x ./gradlew   
       - name: test
-        run: git update-index --chmod=+x ./gradlew test
+        run: ./gradlew test
